@@ -1,0 +1,12 @@
+n=int(input())
+b=n
+s=0
+while b!=0:
+    for _ in range(len(str(n))):
+        r=b%10
+        s=s+r
+        b=b//10
+    if s%2==0:
+        print("Vignesh")
+    else:
+        print("Charan")
