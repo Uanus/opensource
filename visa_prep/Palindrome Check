@@ -1,0 +1,10 @@
+def reverse(s):
+    r_s=""
+    for char in s:
+        r_s=char+r_s
+    return r_s
+s=input()
+if s==reverse(s):
+    print('TRUE')
+else:
+    print('FALSE')
